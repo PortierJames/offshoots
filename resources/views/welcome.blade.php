@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 order-2 order-lg-1">
-          <h1>Global Look</h1>
+          <h1>{{ config('app.name', 'Laravel') }}</h1>
           <p class="lead">Protect your company from financial crime, reduce regulatory compliance risk, and improve investigator efficiency with our <b>KYC</b> and <b>due diligence</b> screening.</p>
           <p><a href="landing" class="btn btn-primary shadow mr-2">Discover More</a></p>
         </div>
@@ -19,7 +19,7 @@
   <section>
     <div class="container">
       <h2>Features</h2>
-      <p class="text-muted mb-5">Global Look is a KYC and due diligence screening app satisfying your regulatory compliance needs.</p>
+      <p class="text-muted mb-5">{{ config('app.name', 'Laravel') }} is a KYC and due diligence screening app satisfying your regulatory compliance needs.</p>
       <div class="row">
         <div class="col-md-4 mb-4">
           <div class="card shadow border-0 h-100"><a href="#"><img src="img/global.png" alt="" class="card-img-top"></a>
@@ -76,14 +76,13 @@
   <section class="bg-light">
     <div class="container">
       <h2>Use Cases</h2>
-      <p class="lead text-muted mb-5">Global Look integrates easily into your existing processes.</p>
+      <p class="lead text-muted mb-5">{{ config('app.name', 'Laravel') }} integrates easily into your existing processes.</p>
       <div class="row">
         <div class="col-md-4 mb-4">
           <div class="card shadow border-0 h-100"><a href="#"><img src="img/kyc.png" alt="" class="card-img-top"></a>
             <div class="card-body">
               <h5> <a href="#" class="text-dark">KYC Screening</a></h5>
               <p class="text-muted card-text">Easy, effortless screening to Know Your Client better.</p>
-              <p class="card-text"><a href="#">Read more</a></p>
             </div>
           </div>
         </div>
@@ -92,7 +91,6 @@
             <div class="card-body">
               <h5> <a href="#" class="text-dark">Due Diligence</a></h5>
               <p class="text-muted card-text">Fully sourced and vetted information for your due diligence requirements.</p>
-              <p class="card-text"><a href="#">Read more</a></p>
             </div>
           </div>
         </div>
@@ -101,7 +99,6 @@
             <div class="card-body">
               <h5> <a href="#" class="text-dark">Sanctioned Entities</a></h5>
               <p class="text-muted card-text">Discover sanctioned, high-risk, and watchlisted entities.</p>
-              <p class="card-text"><a href="#">Read more</a></p>
             </div>
           </div>
         </div>
@@ -110,7 +107,6 @@
             <div class="card-body">
               <h5> <a href="#" class="text-dark">Third-Party Screening</a></h5>
               <p class="text-muted card-text">Find out more about your counterparties and third-parties.</p>
-              <p class="card-text"><a href="#">Read more</a></p>
             </div>
           </div>
         </div>
@@ -119,7 +115,6 @@
             <div class="card-body">
               <h5> <a href="#" class="text-dark">Politically Exposed Persons</a></h5>
               <p class="text-muted card-text">Identify PEPs and deemed PEPs quickly for regulatory requirements.</p>
-              <p class="card-text"><a href="#">Read more</a></p>
             </div>
           </div>
         </div>
@@ -128,7 +123,6 @@
             <div class="card-body">
               <h5> <a href="#" class="text-dark">Reputational Risk</a></h5>
               <p class="text-muted card-text">Find out who you're dealing with, before it's a problem.</p>
-              <p class="card-text"><a href="#">Read more</a></p>
             </div>
           </div>
         </div>
@@ -140,9 +134,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 mb-4 mb-lg-0">
-          <h5>Global Look</h5>
+          <h5>{{ config('app.name', 'Laravel') }}</h5>
           <ul class="contact-info list-unstyled">
-            <li><a href="mailto:sales@fortitudenorth.ca" class="text-dark">sales@fortitudenorth.ca</a></li>
             <li><p class="text-dark">1 King Street West, Toronto, ON</p></li>
           </ul>
         </div>
@@ -169,7 +162,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-7 text-center text-md-left">
-          <p class="mb-md-0">&copy; 2019 Fortitude North. All rights reserved.                        </p>
+          <p class="mb-md-0">&copy; 2019. Indeterminate rights reserved.</p>
         </div>
         <div class="col-md-5 text-center text-md-right">
           <p class="mb-0">Alea Iacta Est</p>

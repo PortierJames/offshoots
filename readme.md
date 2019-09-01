@@ -9,13 +9,22 @@ documentation.
 
 ## Features
 
-Offshoots has the following features:
+Offshoots has some but not all of the following features:
 
  - Entity Search
  - Advanced Search
  - Batch Name Search
  - Export Profiles
  - Customize Search Settings
+
+## Features
+
+Getting started:
+
+  1. Run `composer install` or `composer update`, depending on your mood
+  2. Run `php artisan migrate` to initialize tables
+  3. ???
+  4. Profit!
 
 ## Release Schedule
 
